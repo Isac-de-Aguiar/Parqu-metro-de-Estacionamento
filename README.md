@@ -38,7 +38,7 @@ CSS3
 JavaScript
 
 
-# ✨ Autor
+## ✨ Autor
 
 👨‍💻 Isac
 Desenvolvido como projeto de prática em JavaScript, aplicando conceitos de interação com o DOM e lógica condicional.
