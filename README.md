@@ -33,11 +33,9 @@ O tempo e o troco são exibidos nas respectivas labels.
 
 🧠 Tecnologias Utilizadas
 
-HTML5 → Estrutura da página
-
-CSS3 → Estilização e layout responsivo
-
-JavaScript (ES6) → Lógica de cálculo e interação com o DOM
+HTML5
+CSS3
+JavaScript
 
 🖥️ Estrutura de Arquivos
 📁 parquimetro/
