@@ -6,7 +6,7 @@ Este projeto simula o funcionamento de um parquímetro eletrônico, onde o usuá
 O objetivo é demonstrar conceitos básicos de HTML, CSS e JavaScript aplicados a um contexto prático de automação simples.
 
 ## ⚙️ Funcionalidades
-
+ 
 ✅ Exibe uma tabela de preços com valores e tempos correspondentes
 ✅ Permite inserir um valor em reais (R$)
 ✅ Calcula automaticamente:
