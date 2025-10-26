@@ -31,22 +31,14 @@ Caso o valor inserido seja maior que o necessário, o sistema calcula o troco.
 
 O tempo e o troco são exibidos nas respectivas labels.
 
-🧠 Tecnologias Utilizadas
+## 🧠 Tecnologias Utilizadas
 
 HTML5
 CSS3
 JavaScript
 
-🖥️ Estrutura de Arquivos
-📁 parquimetro/
-│
-├── index.html       → Estrutura principal da aplicação
-├── style.css        → Estilos visuais e layout
-└── script.js        → Lógica e interação do parquímetro
 
-
-
-✨ Autor
+# ✨ Autor
 
 👨‍💻 Isac
 Desenvolvido como projeto de prática em JavaScript, aplicando conceitos de interação com o DOM e lógica condicional.
