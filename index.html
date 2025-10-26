@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parquímetro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="container">
+       <header class="header">
+            <h1>PARQUÍMETRO DE PERMANÊNCIA</h1>
+       </header>
+
+       <section class="table">
+            <div>
+                <h2>TABELA DE PREÇOS</h2>
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>VALOR</th>
+                        <th>TEMPO</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>R$ 1,00</td>
+                        <td>30 minutos</td>
+                    </tr>
+                    <tr>
+                        <td>R$ 1,75</td>
+                        <td>60 minutos</td>
+                    </tr>
+                    <tr>
+                        <td>R$ 3,00</td>
+                        <td>120 minutos</td>
+                    </tr>
+                </tbody>
+            </table>
+       </section>
+
+       <section class="payment">
+            <label for="labelValor" id="money">
+                <h2>INSIRA UMA MOEDA</h2>
+            </label>
+            <input type="number" id="valorInserido" placeholder="R$ 3.00">
+            <button onclick="parquimetro.pagamento()" id="payButton" class="btn">PAGAR</button>
+       </section>
+
+       <div class="troco-cliente">
+            <h2>💲 TROCO: </h2>
+            <label id="troco">R$ 0,00</label>
+       </div>
+
+       <div class="tempo-cliente">
+            <h2>⏰ TEMPO DISPONÍVEL: </h2>
+            <label id="tempo">0 minutos</label>
+       </div>
+
+    </main>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
